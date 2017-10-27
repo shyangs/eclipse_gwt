@@ -1,0 +1,17 @@
+package chapter9.requestbuilder.client;
+
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.user.client.ResponseTextHandler;
+import com.google.gwt.user.client.Window;
+
+
+public class RequestBuilderTest implements EntryPoint {
+
+	public void onModuleLoad() {
+		
+
+		
+	}
+}
