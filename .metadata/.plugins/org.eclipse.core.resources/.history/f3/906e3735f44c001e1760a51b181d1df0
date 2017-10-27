@@ -1,0 +1,26 @@
+package jquery4gwt.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.dom.client.Document;
+import com.google.gwt.dom.client.Node;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class JQuery4GWT implements EntryPoint {
+
+	public void onModuleLoad() {
+		JQueryObject jqueryObject = JQueryObject.$(Document.get());
+		jqueryObject.ready(new JQueryHandler() {
+			@Override
+			public void handler(Node thisEl) {
+				JQueryObject.$("#runBtn").click(new JQueryHandler() {
+					@Override
+					public void handler(Node thisEl) {
+						JQueryObject.$("#panel").show("slow");
+					}
+				});
+			}
+		});
+	}
+}

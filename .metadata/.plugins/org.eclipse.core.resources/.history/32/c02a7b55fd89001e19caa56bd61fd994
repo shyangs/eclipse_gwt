@@ -1,0 +1,46 @@
+package gwttest.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.user.client.DeferredCommand;
+import com.google.gwt.user.client.Window;
+
+public class GwtTest implements EntryPoint {
+	
+	IncrementalCommand ic = new IncrementalCommand(){
+	      int counter = 0;
+	     
+	      public boolean execute() {
+	        for (int i=0;i<WORK_CHUNK;i++) {
+	          counter++;   
+
+	          result += doWork();
+
+	          // If we have done all the work, exit with a 'false'
+	          // return value to terminate further execution.
+	          if (counter == MAX_LOOPS) {
+
+	            // Re-enable button
+	            button.setEnabled(true);
+
+	            // ... other end of computation processing ...
+
+	            return false;
+	          }
+	        }
+	        // Call the execute function again.
+	        return true;
+	      }
+	    };
+	    
+	    // Schedule the IncrementalCommand instance to run when 
+	    // control returns to the event loop by returning 'true'
+	    DeferredCommand.addCommand(ic);
+	  }
+	
+	
+	public void onModuleLoad() {
+		for (int i = 0; i < 9999999; ++i) {
+			Window.setStatus(Integer.toString(i));
+		}
+	}
+}

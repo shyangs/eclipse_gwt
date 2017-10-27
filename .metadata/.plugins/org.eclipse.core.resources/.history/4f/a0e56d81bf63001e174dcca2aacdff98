@@ -1,0 +1,59 @@
+package chapter10.helloext.client;
+
+import com.extjs.gxt.ui.client.core.Templates.Resource;
+import com.extjs.gxt.ui.client.data.BaseModelData;
+import com.extjs.gxt.ui.client.data.BaseTreeModel;
+import com.extjs.gxt.ui.client.data.ModelData;
+import com.extjs.gxt.ui.client.data.ModelIconProvider;
+import com.extjs.gxt.ui.client.store.TreeStore;
+import com.extjs.gxt.ui.client.widget.Viewport;
+import com.extjs.gxt.ui.client.widget.layout.FitLayout;
+import com.extjs.gxt.ui.client.widget.treepanel.TreePanel;
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.user.client.ui.AbstractImagePrototype;
+import com.google.gwt.user.client.ui.ImageBundle;
+import com.google.gwt.user.client.ui.RootPanel;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class HelloExt implements EntryPoint {
+	
+	public interface TreeImageBundle extends ImageBundle {
+		@Resource(value="leaf.png")
+		public AbstractImagePrototype getLeafImage();
+	}
+	
+	public class MyModelIconProvider implements ModelIconProvider<BaseTreeModel> {
+
+		@Override
+		public AbstractImagePrototype getIcon(BaseTreeModel model) {
+			TreeImageBundle images = GWT.create(TreeImageBundle.class);
+			if ("叶子节点".equals(model.get("name"))) {
+				return images.getLeafImage();
+			}
+			return null;
+		}
+	}
+	
+	public void onModuleLoad() {
+		TreeStore<BaseTreeModel> store = new TreeStore<BaseTreeModel>();
+		BaseTreeModel root = new BaseTreeModel();
+		root.set("name", "根节点");
+
+		BaseTreeModel leaf = new BaseTreeModel(root);
+		leaf.set("name", "叶子节点");
+		
+		store.add(root, true);
+
+		TreePanel<BaseTreeModel> tree = new TreePanel<BaseTreeModel>(store);
+		tree.setDisplayProperty("name");
+		tree.setIconProvider(new MyModelIconProvider());
+		
+		Viewport viewport = new Viewport();
+		viewport.setLayout(new FitLayout());
+		viewport.add(tree);
+		RootPanel.get().add(viewport);
+	}
+}

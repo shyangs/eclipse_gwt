@@ -1,0 +1,422 @@
+<html>
+<head><script>
+var $gwt_version = "1.6.4";
+var $wnd = parent;
+var $doc = $wnd.document;
+var $moduleName, $moduleBase;
+var $stats = $wnd.__gwtStatsEvent ? function(a) {return $wnd.__gwtStatsEvent(a);} : null;
+$stats && $stats({moduleName:'xmltest',subSystem:'startup',evtGroup:'moduleStartup',millis:(new Date()).getTime(),type:'moduleEvalStart'});
+</script></head>
+<body>
+<script><!--
+var _;
+function Object_0(){
+}
+
+_ = Object_0.prototype = {};
+_.typeId$ = 1;
+function $getInnerText(this$static, element){
+  var i, list, node, nodeType, result, text, out;
+  result = $StringBuilder(new StringBuilder());
+  list = $NodeListImpl(new NodeListImpl(), ($clinit_40() , element.jsObject.childNodes));
+  for (i = 0; i < list.jsObject.length; ++i) {
+    node = build(item(list.jsObject, i));
+    nodeType = (out = node.jsObject.nodeType , out == null?-1:out);
+    if (nodeType == 3) {
+      text = dynamicCast(node, 3);
+      $append_0(result, text.getNodeValue());
+    }
+     else if (nodeType == 1) {
+      $append_0(result, $getInnerText(this$static, dynamicCast(node, 2)));
+    }
+  }
+  return result.impl.string;
+}
+
+function $onModuleLoad(this$static){
+  var xmlDocument;
+  xmlDocument = ($clinit_24() , $parse(impl, '<a><b>a<c>b<e/>c<b/>e<\/c>f<\/b>g<\/a>'));
+  $wnd.alert($getInnerText(this$static, dynamicCast(build(($clinit_40() , xmlDocument.jsObject.documentElement)), 2)));
+}
+
+function XMLTest(){
+}
+
+_ = XMLTest.prototype = new Object_0();
+_.typeId$ = 0;
+function $initCause(this$static, cause){
+  if (this$static.cause) {
+    throw new IllegalStateException();
+  }
+  if (cause == this$static) {
+    throw new IllegalArgumentException();
+  }
+  this$static.cause = cause;
+  return this$static;
+}
+
+function Throwable(){
+}
+
+_ = Throwable.prototype = new Object_0();
+_.typeId$ = 3;
+_.cause = null;
+function Exception(){
+}
+
+_ = Exception.prototype = new Throwable();
+_.typeId$ = 4;
+function RuntimeException(){
+}
+
+_ = RuntimeException.prototype = new Exception();
+_.typeId$ = 5;
+function $JavaScriptException(this$static, e){
+  return this$static;
+}
+
+function JavaScriptException(){
+}
+
+_ = JavaScriptException.prototype = new RuntimeException();
+_.typeId$ = 6;
+function StringBufferImpl(){
+}
+
+_ = StringBufferImpl.prototype = new Object_0();
+_.typeId$ = 0;
+function StringBufferImplAppend(){
+}
+
+_ = StringBufferImplAppend.prototype = new StringBufferImpl();
+_.typeId$ = 0;
+_.string = '';
+function canCast(srcId, dstId){
+  return srcId && !!typeIdArray[srcId][dstId];
+}
+
+function canCastUnsafe(srcId, dstId){
+  return srcId && typeIdArray[srcId][dstId];
+}
+
+function dynamicCast(src, dstId){
+  if (src != null && !canCastUnsafe(src.typeId$, dstId)) {
+    throw new ClassCastException();
+  }
+  return src;
+}
+
+function instanceOf(src, dstId){
+  return src != null && canCast(src.typeId$, dstId);
+}
+
+var typeIdArray = [{}, {}, {1:1}, {4:1}, {4:1}, {4:1}, {4:1, 6:1}, {4:1}, {3:1}, {3:1}, {4:1}, {5:1}, {2:1}, {4:1}, {4:1}, {4:1}, {4:1}, {4:1}, {4:1}, {4:1}];
+function caught(e){
+  if (e != null && canCast(e.typeId$, 4)) {
+    return e;
+  }
+  return $JavaScriptException(new JavaScriptException(), e);
+}
+
+function $DOMException(this$static, message){
+  return this$static;
+}
+
+function DOMException(){
+}
+
+_ = DOMException.prototype = new RuntimeException();
+_.typeId$ = 7;
+function $clinit_24(){
+  $clinit_24 = nullMethod;
+  impl = ($clinit_40() , impl_0);
+}
+
+var impl;
+function DOMItem(){
+}
+
+_ = DOMItem.prototype = new Object_0();
+_.typeId$ = 0;
+_.jsObject = null;
+function $NodeImpl(this$static, jso){
+  this$static.jsObject = jso;
+  return this$static;
+}
+
+function build(node){
+  var nodeType, out;
+  if (!node) {
+    return null;
+  }
+  nodeType = ($clinit_40() , out = node.nodeType , out == null?-1:out);
+  switch (nodeType) {
+    case 2:
+      return $AttrImpl(new AttrImpl(), node);
+    case 4:
+      return $CDATASectionImpl(new CDATASectionImpl(), node);
+    case 8:
+      return $CommentImpl(new CommentImpl(), node);
+    case 11:
+      return $DocumentFragmentImpl(new DocumentFragmentImpl(), node);
+    case 9:
+      return $DocumentImpl(new DocumentImpl(), node);
+    case 1:
+      return $ElementImpl(new ElementImpl(), node);
+    case 7:
+      return $ProcessingInstructionImpl(new ProcessingInstructionImpl(), node);
+    case 3:
+      return $TextImpl(new TextImpl(), node);
+    default:return $NodeImpl(new NodeImpl(), node);
+  }
+}
+
+function getNodeValue(){
+  return $clinit_40() , this.jsObject.nodeValue;
+}
+
+function NodeImpl(){
+}
+
+_ = NodeImpl.prototype = new DOMItem();
+_.getNodeValue = getNodeValue;
+_.typeId$ = 0;
+function $AttrImpl(this$static, o){
+  this$static.jsObject = o;
+  return this$static;
+}
+
+function AttrImpl(){
+}
+
+_ = AttrImpl.prototype = new NodeImpl();
+_.typeId$ = 0;
+function CharacterDataImpl(){
+}
+
+_ = CharacterDataImpl.prototype = new NodeImpl();
+_.typeId$ = 0;
+function $TextImpl(this$static, o){
+  this$static.jsObject = o;
+  return this$static;
+}
+
+function TextImpl(){
+}
+
+_ = TextImpl.prototype = new CharacterDataImpl();
+_.typeId$ = 8;
+function $CDATASectionImpl(this$static, o){
+  this$static.jsObject = o;
+  return this$static;
+}
+
+function CDATASectionImpl(){
+}
+
+_ = CDATASectionImpl.prototype = new TextImpl();
+_.typeId$ = 9;
+function $CommentImpl(this$static, o){
+  this$static.jsObject = o;
+  return this$static;
+}
+
+function CommentImpl(){
+}
+
+_ = CommentImpl.prototype = new CharacterDataImpl();
+_.typeId$ = 0;
+function $DOMParseException(this$static, contents, e){
+  $DOMException(this$static, 'Failed to parse: ' + contents.substr(0, min(contents.length, 128) - 0));
+  $initCause(this$static, e);
+  return this$static;
+}
+
+function DOMParseException(){
+}
+
+_ = DOMParseException.prototype = new DOMException();
+_.typeId$ = 10;
+function $DocumentFragmentImpl(this$static, o){
+  this$static.jsObject = o;
+  return this$static;
+}
+
+function DocumentFragmentImpl(){
+}
+
+_ = DocumentFragmentImpl.prototype = new NodeImpl();
+_.typeId$ = 0;
+function $DocumentImpl(this$static, o){
+  this$static.jsObject = o;
+  return this$static;
+}
+
+function DocumentImpl(){
+}
+
+_ = DocumentImpl.prototype = new NodeImpl();
+_.typeId$ = 11;
+function $ElementImpl(this$static, o){
+  this$static.jsObject = o;
+  return this$static;
+}
+
+function ElementImpl(){
+}
+
+_ = ElementImpl.prototype = new NodeImpl();
+_.typeId$ = 12;
+function $NodeListImpl(this$static, o){
+  this$static.jsObject = o;
+  return this$static;
+}
+
+function NodeListImpl(){
+}
+
+_ = NodeListImpl.prototype = new DOMItem();
+_.typeId$ = 0;
+function $ProcessingInstructionImpl(this$static, o){
+  this$static.jsObject = o;
+  return this$static;
+}
+
+function ProcessingInstructionImpl(){
+}
+
+_ = ProcessingInstructionImpl.prototype = new NodeImpl();
+_.typeId$ = 0;
+function $clinit_40(){
+  $clinit_40 = nullMethod;
+  impl_0 = $XMLParserImplMozillaOld(new XMLParserImplMozillaOld());
+}
+
+function $parse(this$static, contents){
+  var $e0, e;
+  try {
+    return dynamicCast(build($parseImpl(this$static, contents)), 5);
+  }
+   catch ($e0) {
+    $e0 = caught($e0);
+    if (instanceOf($e0, 6)) {
+      e = $e0;
+      throw $DOMParseException(new DOMParseException(), contents, e);
+    }
+     else 
+      throw $e0;
+  }
+}
+
+function item(t, index){
+  $clinit_40();
+  if (index >= t.length) {
+    return null;
+  }
+  return t.item(index);
+}
+
+function XMLParserImpl(){
+}
+
+_ = XMLParserImpl.prototype = new Object_0();
+_.typeId$ = 0;
+var impl_0;
+function $clinit_39(){
+  $clinit_39 = nullMethod;
+  $clinit_40();
+}
+
+function $parseImpl(this$static, contents){
+  var domParser = this$static.domParser;
+  var result = domParser.parseFromString(contents, 'text/xml');
+  var roottag = result.documentElement;
+  if (roottag.tagName == 'parsererror' && roottag.namespaceURI == 'http://www.mozilla.org/newlayout/xml/parsererror.xml') {
+    throw new Error(roottag.firstChild.data);
+  }
+  return result;
+}
+
+function XMLParserImplStandard(){
+}
+
+_ = XMLParserImplStandard.prototype = new XMLParserImpl();
+_.typeId$ = 0;
+function $clinit_38(){
+  $clinit_38 = nullMethod;
+  $clinit_39();
+}
+
+function $XMLParserImplMozillaOld(this$static){
+  $clinit_38();
+  this$static.domParser = new DOMParser();
+  return this$static;
+}
+
+function XMLParserImplMozillaOld(){
+}
+
+_ = XMLParserImplMozillaOld.prototype = new XMLParserImplStandard();
+_.typeId$ = 0;
+function ClassCastException(){
+}
+
+_ = ClassCastException.prototype = new RuntimeException();
+_.typeId$ = 17;
+function IllegalArgumentException(){
+}
+
+_ = IllegalArgumentException.prototype = new RuntimeException();
+_.typeId$ = 18;
+function IllegalStateException(){
+}
+
+_ = IllegalStateException.prototype = new RuntimeException();
+_.typeId$ = 19;
+function min(x, y){
+  return x < y?x:y;
+}
+
+_ = String.prototype;
+_.typeId$ = 2;
+function $StringBuilder(this$static){
+  this$static.impl = new StringBufferImplAppend();
+  return this$static;
+}
+
+function $append_0(this$static, x){
+  this$static.impl.string += x;
+  return this$static;
+}
+
+function StringBuilder(){
+}
+
+_ = StringBuilder.prototype = new Object_0();
+_.typeId$ = 0;
+function init(){
+  !!$stats && $stats({moduleName:$moduleName, subSystem:'startup', evtGroup:'moduleStartup', millis:(new Date()).getTime(), type:'onModuleLoadStart', className:'chapter5.xmltest.client.XMLTest'});
+  $onModuleLoad(new XMLTest());
+}
+
+function gwtOnLoad(errFn, modName, modBase){
+  $moduleName = modName;
+  $moduleBase = modBase;
+  if (errFn)
+    try {
+      init();
+    }
+     catch (e) {
+      errFn(modName);
+    }
+   else {
+    init();
+  }
+}
+
+function nullMethod(){
+}
+
+$stats && $stats({moduleName:'xmltest',subSystem:'startup',evtGroup:'moduleStartup',millis:(new Date()).getTime(),type:'moduleEvalEnd'});
+if ($wnd.xmltest) $wnd.xmltest.onScriptLoad();
+--></script></body></html>

@@ -1,0 +1,13 @@
+package chapter9.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.user.client.impl.HTTPRequestImpl;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class RPCTutorial implements EntryPoint {
+	public void onModuleLoad() {
+		HTTPRequestImpl i = new HTTPRequestImpl();
+	}
+}

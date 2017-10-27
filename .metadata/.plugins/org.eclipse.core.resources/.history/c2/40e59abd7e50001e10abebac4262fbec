@@ -1,0 +1,7 @@
+package chapter5.xpath.client;
+
+import com.google.gwt.xml.client.Node;
+
+public class XPathExpression {
+	public Object evaluate(Node item, XPathConstants returnType)
+}

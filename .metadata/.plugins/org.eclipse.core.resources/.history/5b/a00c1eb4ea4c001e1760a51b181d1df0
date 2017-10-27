@@ -1,0 +1,22 @@
+package chapter4.client;
+
+import com.google.gwt.core.client.EntryPoint;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class JSNI implements EntryPoint {
+
+	public void onModuleLoad() {
+		try {
+			registerGwtFunction();
+		}
+		catch (JavaScriptException e) {
+			
+		}
+	}
+	
+	public native void registerGwtFunction() /*-{
+		null.hello();
+	}-*/;
+}

@@ -1,0 +1,15 @@
+package chapter4.client;
+
+import com.google.gwt.core.client.EntryPoint;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class JQuery implements EntryPoint {
+
+	public void onModuleLoad() {
+
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+	<ui:with field='res' type='demo2.client.MyResources' />
+	<g:HTMLPanel>
+		<g:Image resource='{res.image}' />
+		<div class='res.css.redbox' />
+  	</g:HTMLPanel>
+</ui:UiBinder>
+

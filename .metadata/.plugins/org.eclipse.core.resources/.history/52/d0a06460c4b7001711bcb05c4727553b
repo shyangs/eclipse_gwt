@@ -1,0 +1,41 @@
+package chapter4.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.JavaScriptObject;
+import com.google.gwt.core.client.JsArray;
+import com.google.gwt.core.client.JsArrayString;
+
+public class JSNI_JsArray implements EntryPoint {
+
+	public void onModuleLoad() {
+//		JsArrayString jsArrayStr = (JsArrayString) JavaScriptObject.createArray();
+		JsArray jsArray = JavaScriptObject.createArray().cast();
+		jsArray.set(0, (JavaScriptObject)"a");
+		jsArray.set(1, "b");
+		jsArray.set(2, "c");
+		jsArray.push("d");
+		webConsoleLog(jsArrayStr); // ["a", "b", "c", "d"]
+		webConsoleLog( toJsArray( new String[]{"x", "y", "z"} ) ); // ["x", "y", "z"]
+	}
+	
+	public native void webConsoleLog(JsArray jsArray) /*-{
+//		$wnd.console.log(document);
+		$wnd.console.log(jsArray);
+	}-*/;
+	
+	public JsArray toJsArray(Object[] input) {
+		JsArray jsArray = JsArrayString.createArray().cast();
+	    for (Object s : input) {
+	    	jsArray.push((JavaScriptObject) s);
+	    }
+	    return jsArray; 
+	}
+	
+//	public JsArrayString toJsArray(String[] input) {
+//	    JsArrayString jsArrayString = JsArrayString.createArray().cast();
+//	    for (String s : input) {
+//	        jsArrayString.push(s);
+//	    }
+//	    return jsArrayString; 
+//	}
+}

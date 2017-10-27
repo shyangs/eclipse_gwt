@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements(s) to &apos;HibernateTest/src/chapter9.hibernate.client&apos;&#x0D;&#x0A;- Original project: &apos;HttpRequestTest&apos;&#x0D;&#x0A;- Destination element: &apos;HibernateTest/src/chapter9.hibernate.client&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     chapter9.httprequesttest.client.AddService.java&#x0D;&#x0A;     chapter9.httprequesttest.client.AddServiceAsync.java" description="Copy compilation units" destination="=HibernateTest/src&lt;chapter9.hibernate.client" element1="/src&lt;chapter9.httprequesttest.client{AddService.java" element2="/src&lt;chapter9.httprequesttest.client{AddServiceAsync.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1245560877593" units="2" version="1.0"/>
+</session>

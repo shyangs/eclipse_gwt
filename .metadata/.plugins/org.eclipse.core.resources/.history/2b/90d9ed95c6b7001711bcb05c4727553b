@@ -1,0 +1,34 @@
+package chapter4.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.JavaScriptObject;
+import com.google.gwt.core.client.JsArray;
+import com.google.gwt.core.client.JsArrayMixed;
+import com.google.gwt.core.client.JsArrayString;
+
+public class JSNI_JsArray implements EntryPoint {
+
+	public void onModuleLoad() {
+//		JsArrayString jsArrayStr = (JsArrayString) JavaScriptObject.createArray();
+		JsArrayMixed jsArrayStr = JavaScriptObject.createArray().cast();
+		jsArrayStr.set(0, "a");
+		jsArrayStr.set(1, "b");
+		jsArrayStr.set(2, "c");
+		jsArrayStr.push("d");
+		webConsoleLog(jsArrayStr); // ["a", "b", "c", "d"]
+		webConsoleLog( toJsArray( new String[]{"x", "y", "z"} ) ); // ["x", "y", "z"]
+	}
+	
+	public native void webConsoleLog(JsArrayMixed jsArrayMixed) /*-{
+//		$wnd.console.log(document);
+		$wnd.console.log(jsArrayStr);
+	}-*/;
+	
+	public JsArrayMixed toJsArray(Object[] input) {
+		JsArrayMixed jsArrayMixed = JsArrayMixed.createArray().cast();
+	    for (Object s : input) {
+	        jsArrayString.push((String)s);
+	    }
+	    return jsArrayMixed; 
+	}
+}

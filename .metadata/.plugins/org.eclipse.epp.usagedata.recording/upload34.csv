@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.jst.j2ee,1.1.301.v200909030330,"org.eclipse.jst.j2ee",1258767124435
+started,bundle,org.eclipse.compare,3.5.0.I20090514-0808,"org.eclipse.compare",1258767124862
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258767127935
+error,log,,,"Unexpected Exception",1258767132605
+error,log,,,"Unexpected Exception",1258767132615
+error,log,,,"Unexpected Exception",1258767132619
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258767150655
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.properties",1258767150682
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258767156017
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.100.v200809240707,"org.eclipse.wst.jsdt.manipulation",1258767157900
+started,bundle,org.eclipse.wst.jsdt.core,1.0.201.v200908101420,"org.eclipse.wst.jsdt.core",1258767158413
+started,bundle,org.eclipse.wst.jsdt.ui,1.0.200.v200905242047,"org.eclipse.wst.jsdt.ui",1258767158500
+closed,editor,com.google.gwt.eclipse.core,1.1.101.v200911161426,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1258767159739
+started,bundle,org.eclipse.pde.core,3.5.100.v20090821,"org.eclipse.pde.core",1258767159933
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258767160103
+executed,command,org.eclipse.ltk.ui.refactoring,3.4.100.v20090604,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1258767160132
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.delete",1258767160132
+started,bundle,com.google.gdt.eclipse.platform,1.1.101.v200911161426,"com.google.gdt.eclipse.platform",1258767162721
+error,log,,,"Unexpected Exception",1258767162747
+error,log,,,"Unexpected Exception",1258767162753
+error,log,,,"Unexpected Exception",1258767162756
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258767162819
+error,log,,,"Unexpected Exception",1258767165981
+error,log,,,"Unexpected Exception",1258767166003
+error,log,,,"Unexpected Exception",1258767166005

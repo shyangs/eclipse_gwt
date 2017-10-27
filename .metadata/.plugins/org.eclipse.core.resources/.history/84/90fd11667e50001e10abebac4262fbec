@@ -1,0 +1,6 @@
+package chapter5.xpath.client;
+
+public class XPathConstants {
+	public static const NODE = 1;
+	public final static  NODESET = 2;
+}

@@ -1,0 +1,5 @@
+package jquery4gwt.client;
+
+public class JQuery {
+
+}

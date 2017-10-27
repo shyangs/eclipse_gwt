@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;GwtFlow/src/jbpm.mail.templates.examples.xml&apos; to &apos;jbpm.mail.templates.xml&apos;" description="Rename resource &apos;jbpm.mail.templates.examples.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/jbpm.mail.templates.examples.xml" name="jbpm.mail.templates.xml" stamp="1247921976468" updateReferences="true"/>
+</session>

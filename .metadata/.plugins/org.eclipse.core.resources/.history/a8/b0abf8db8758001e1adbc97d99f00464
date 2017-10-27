@@ -1,0 +1,25 @@
+package chapter6.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.user.client.ui.Button;
+import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.Tree;
+import com.google.gwt.user.client.ui.TreeItem;
+
+public class ControlTest implements EntryPoint {
+
+	public void onModuleLoad() {
+		Tree tree = new Tree();
+		tree.setWidth("100px");
+		tree.setHeight("10px");
+		
+		TreeItem item = tree.addItem(new Button("a"));
+		item.addItem("level1");
+		RootPanel.get().add(tree);
+	}
+	
+	public Widget createCheckableItem(String item) {
+		
+	}
+
+}

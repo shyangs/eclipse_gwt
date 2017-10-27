@@ -1,0 +1,6 @@
+package chapter9.httprequestimpl;
+
+public class AddRequest {
+	int a;
+	int b;
+}

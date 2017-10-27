@@ -1,0 +1,17 @@
+package chapter4.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.JavaScriptObject;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class JSNI implements EntryPoint {
+	public void onModuleLoad() {
+		JavaScriptObject myDog = createDog();
+		showDogName(myDog);
+	}
+	
+	public void showArrayLength(JsArray<String> jsArray) /*-{
+	}-*/;
+}

@@ -1,0 +1,8 @@
+package gwttest.client;
+
+import com.google.gwt.core.client.EntryPoint;
+
+public class GwtTest implements EntryPoint {
+	public void onModuleLoad() {
+	}
+}

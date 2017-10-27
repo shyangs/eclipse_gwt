@@ -1,0 +1,26 @@
+package chapter6.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.dom.client.ClickHandler;
+import com.google.gwt.user.client.ui.Button;
+import com.google.gwt.user.client.ui.RootPanel;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class ControlTest implements EntryPoint {
+	public void onModuleLoad() {
+		Button highlightButton = new Button("按钮1");
+		highlightButton.addStyleName("normal");
+		highlightButton.addClickHandler(new ClickHandler() {
+			@Override
+			public void onClick(ClickEvent event) {
+				Button button = (Button) event.getSource();
+				button.removeStyleName("normal");
+				button.addStyleName("highlight");
+			}
+		});
+		RootPanel.get().add(highlightButton);
+	}
+}

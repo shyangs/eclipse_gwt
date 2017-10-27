@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="269" key="DIALOG_WIDTH"/>
+		<item value="252" key="DIALOG_Y_ORIGIN"/>
+		<item value="381" key="DIALOG_HEIGHT"/>
+		<item value="528" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Microsoft JhengHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft JhengHei UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="true" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="chapter9.httprequestimpl" key="selection"/>
+		<list key="findhistory">
+			<item value="AddServiceImpl"/>
+			<item value="chapter9.httprequesttest"/>
+			<item value="com.google.gwt.user.client.impl"/>
+			<item value="echarts"/>
+			<item value="document"/>
+			<item value="BodyElement"/>
+			<item value="init()"/>
+			<item value="url"/>
+		</list>
+		<list key="replacehistory">
+			<item value="chapter9.httprequestimpl"/>
+			<item value="chapter9.httprequesttest.client"/>
+			<item value="ech"/>
+			<item value="doc"/>
+			<item value="chapter4"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="400" key="DIALOG_Y_ORIGIN"/>
+		<item value="405" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

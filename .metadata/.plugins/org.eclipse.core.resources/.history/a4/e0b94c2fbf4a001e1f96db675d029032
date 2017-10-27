@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="Hellogwt" default="export-lib" basedir=".">
+	<property file="build.properties" />
+	<target name="export-lib">
+		<javac srcdir="src" destdir="war/WEB-INF/classes">
+			<classpath>
+				<pathelement location="${gwt.sdk}/gwt-user.jar"/>
+				<fileset dir="${gwt.sdk}" includes="gwt-dev*.jar"/>
+			</classpath>
+		</javac>
+		<jar destfile="export_lib.jar">
+			<fileset dir="war/WEB-INF/classes">
+				<include name="**/*.class" />
+			</fileset>
+			<fileset dir="${basedir}/../DistDap2/src">
+				<include name="**/*.java" />
+			</fileset>			
+		</jar>		
+	</target>
+</project>

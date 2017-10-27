@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+opened,editor,,,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1252107876764
+activated,editor,,,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1252107876827
+closed,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1252107876827
+error,log,,,"Unable to create editor ID com.google.gwt.eclipse.core.editors.gwtJavaEditor: No editor descriptor for id com.google.gwt.eclipse.core.editors.gwtJavaEditor",1252107879323
+opened,editor,,,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1252107879323
+opened,editor,,,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1252107879323
+activated,editor,,,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1252107879338
+closed,editor,,,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1252107879338
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1252107879806
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1252107879947
+closed,editor,,,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1252107879947
+opened,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1252107880555
+activated,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1252107880618
+closed,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1252107880618
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1252107881086
+closed,editor,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.ClassFileEditor",1252107881086
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252107881834
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252107927667
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252107930600
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252107930616
+opened,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252107930694
+activated,perspective,,,"<Java_EE>",1252107930694
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.window.newWindow",1252107930694
+closed,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252107932004
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252107932020

@@ -1,0 +1,38 @@
+1247963299015	Rename resource 'flow.xml'
+1248128625250	Rename local variable 'GeneralManagerGroupId'
+1248138783328	Rename type 'SpringContext'
+1248140039515	Delete elements
+1248140041765	Delete element
+1248151231890	Delete element
+1248184243265	Rename type 'GreetingService'
+1248184251421	Rename type 'GreetingServiceAsync'
+1248184263375	Rename type 'GreetingServiceImpl'
+1248214463750	Rename local variable 'layout'
+1248214756140	Delete element
+1248217215140	Delete element
+1248217826843	Move compilation units
+1248221213593	Rename field 'configuration'
+1248302457265	Delete element
+1248303637890	Move file
+1248303659234	Rename package 'gwtflow.flow'
+1248303848093	Copy file
+1248303851484	Delete element
+1248307688734	Rename resource 'flow.jpdl.xml'
+1248308136593	Rename field 'passwordField'
+1248310145671	Rename compilation unit 'BizzEvents.java'
+1248389425531	Rename type 'AsyncCallBackEx'
+1248392699953	Move compilation unit
+1248393728906	Rename method 'getCurrentPersonId'
+1248393734156	Rename method 'getCurrentPersonName'
+1248395814437	Delete element
+1248490407968	Rename package 'bizzflow'
+1248490411593	Rename package 'bizzdata'
+1248491328156	Rename resource 'bizzright.xml'
+1248506598843	Rename method 'loadRight'
+1248506649312	Rename local variable 'status'
+1248509502609	Rename type 'OkButtonListener'
+1248509529906	Rename local variable 'applyForm'
+1248531222828	Rename resource 'applyform.xml'
+1248532766984	Delete element
+1248533386843	Rename local variable 'grid'
+1248534129281	Delete element

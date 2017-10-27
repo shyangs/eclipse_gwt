@@ -1,0 +1,13 @@
+package chapter4.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.JavaScriptObject;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class TestJavaScriptObject implements EntryPoint {
+	public void onModuleLoad() {
+		JsArray jsArray = JavaScriptObject.createArray().cast();
+	}
+}

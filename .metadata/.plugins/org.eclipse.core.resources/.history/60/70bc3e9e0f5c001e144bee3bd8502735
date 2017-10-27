@@ -1,0 +1,24 @@
+package chapter9.httprequesttest.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.http.client.RequestBuilder;
+import com.google.gwt.user.client.ResponseTextHandler;
+import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.impl.HTTPRequestImpl;
+
+
+public class HttpRequestTest implements EntryPoint {
+
+	public void onModuleLoad() {
+		RequestBuilder request = new RequestBuilder();
+		HTTPRequestImpl request = GWT.create(HTTPRequestImpl.class);
+		request.asyncGet(GWT.getHostPageBaseURL() + "data.txt", new ResponseTextHandler() {
+
+			@Override
+			public void onCompletion(String responseText) {
+				Window.alert(responseText);
+			}
+		});
+	}
+}

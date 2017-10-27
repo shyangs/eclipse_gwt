@@ -1,0 +1,6 @@
+package chapter5.xpath.client;
+
+public enum XPathConstants {
+	NODE,
+	NODESET
+}

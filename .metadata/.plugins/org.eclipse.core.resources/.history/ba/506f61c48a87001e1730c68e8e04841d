@@ -1,0 +1,20 @@
+package gwttest.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.dom.client.ClickHandler;
+import com.google.gwt.user.client.ui.Button;
+import com.google.gwt.user.client.ui.RootPanel;
+
+public class GwtTest implements EntryPoint {
+	public void onModuleLoad() {
+		final Button b = new Button("a");
+		RootPanel.get().add(b);
+		b.addClickHandler(new ClickHandler(){
+			@Override
+			public void onClick(ClickEvent event) {
+				MoveAni ani = new MoveAni(b.getElement(), 0, 0, 100, 100);
+			}
+		});
+	}
+}

@@ -1,0 +1,22 @@
+package chapter4.client;
+
+import com.google.gwt.core.client.EntryPoint;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class JSNI implements EntryPoint {
+	public void onModuleLoad() {
+		getUrl("s", true, 1, (short)1, 1.1, (float)1.1);
+	}
+	
+	public native String getUrl(String st, boolean b, int i, short s, double d, float f) /*-{
+		var arr = [];
+		arr.push("String => " + typeof st);
+		arr.push("boolean => " + typeof b);
+		arr.push("int => " + typeof i);
+		arr.push("short => " + typeof s);
+		arr.push("double => " + typeof d);
+		arr.push("float => " + typeof f);
+	}-*/;
+}

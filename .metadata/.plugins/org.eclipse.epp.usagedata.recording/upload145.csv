@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258854791494
+activated,view,com.google.gwt.eclipse.oophm,1.1.101.v200911161426,"com.google.gwt.eclipse.oophm.WebAppLaunchView",1258854791514
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258854791829
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258854793414
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258854794147
+activated,editor,com.google.gwt.eclipse.core,1.1.101.v200911161426,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1258854795122
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258854797222
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258854798333
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258854798766
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258854798998
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258854800552
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258854800779
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258855115451
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258855119741
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258855119963
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258855120163
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258855120318
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258855120676
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258855120871
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258855121105
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258855121299
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258855121489
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258855121671
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258855121867
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258855122055

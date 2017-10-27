@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chart>
+	<tasks>
+		<task name="开始" x="100" y="50" status="start"/>
+		<task name="部门经理审批" x="200" y="50"/> 
+		<task name="财务审批" x="300" y="50" /> 
+		<task name="总经理审批" x="400" y="50" /> 
+		<task name="出纳支付" x="500" y="50" /> 
+		<task name="填写申请表" x="200" y="150" /> 
+		<task name="结束" x="600" y="50" status="end" />
+	</tasks>
+	<transitions>
+		<transition start="开始" end="部门经理审批" points="" />
+		<transition start="部门经理审批" end="财务审批" points="" />
+		<transition start="财务审批" end="总经理审批" points="" />
+		<transition start="总经理审批" end="出纳支付" points="" />
+		<transition start="出纳支付" end="结束" points="" />
+		
+		<transition start="部门经理审批" end="填写申请表" points="" />
+		<transition start="财务审批" end="填写申请表" points="300,150" />
+		<transition start="总经理审批" end="填写申请表" points="400,150" />		
+
+		<transition start="填写申请表" end="部门经理审批" points="140,150;140,50" />		
+		<transition start="填写申请表" end="结束" points="200,200;600,200" />		
+
+	</transitions>
+</chart>

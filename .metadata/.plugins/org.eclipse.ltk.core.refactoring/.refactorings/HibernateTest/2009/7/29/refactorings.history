@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements(s) to &apos;lib&apos;&#x0D;&#x0A;- Original project: &apos;HibernateTest&apos;&#x0D;&#x0A;- Destination element: &apos;lib&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     slf4j-api-1.5.8.jar&#x0D;&#x0A;     slf4j-nop-1.5.8.jar" description="Copy files" element1="war/WEB-INF/lib/slf4j-api-1.5.8.jar" element2="war/WEB-INF/lib/slf4j-nop-1.5.8.jar" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1247922058656" target="/GwtFlow/war/WEB-INF/lib" units="0" version="1.0"/>
+</session>

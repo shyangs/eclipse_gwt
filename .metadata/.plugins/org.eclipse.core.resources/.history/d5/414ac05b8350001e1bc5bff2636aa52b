@@ -1,0 +1,12 @@
+package chapter5.xpath.client;
+
+import com.google.gwt.core.client.EntryPoint;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class XPathLib implements EntryPoint {
+
+	public void onModuleLoad() {
+	}
+}

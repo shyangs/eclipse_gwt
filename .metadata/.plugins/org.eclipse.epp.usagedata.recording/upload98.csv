@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258793955126
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258793958280
+activated,view,com.google.gwt.eclipse.oophm,1.1.101.v200911161426,"com.google.gwt.eclipse.oophm.WebAppLaunchView",1258793958321
+no handler,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258793959131
+activated,editor,com.google.gwt.eclipse.core,1.1.101.v200911161426,"com.google.gwt.eclipse.core.editors.uiBinderXmlEditor",1258793959574
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258793959746
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258793960184
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258793960584
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258793962682
+activated,view,com.google.gwt.eclipse.oophm,1.1.101.v200911161426,"com.google.gwt.eclipse.oophm.WebAppLaunchView",1258793962722
+activated,editor,com.google.gwt.eclipse.core,1.1.101.v200911161426,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1258793963555
+activated,editor,com.google.gwt.eclipse.core,1.1.101.v200911161426,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1258793964169
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258793964889
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258793965278
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258793966052
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258793968448
+activated,view,com.google.gwt.eclipse.oophm,1.1.101.v200911161426,"com.google.gwt.eclipse.oophm.WebAppLaunchView",1258793968466
+activated,editor,com.google.gwt.eclipse.core,1.1.101.v200911161426,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1258793970159
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258793971869
+executed,command,org.eclipse.ui.ide,3.5.1.M20090826-0800,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1258793973189
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258793976472
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258793977060
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258793977856
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258793980934
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258793997101

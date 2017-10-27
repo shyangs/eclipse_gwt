@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;HelloGWT230&apos;&#x0D;&#x0A;- Original project: &apos;HelloGWT230&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     io.github.shyangs.client.GreetingService.java&#x0D;&#x0A;     io.github.shyangs.client.GreetingServiceAsync.java&#x0D;&#x0A;     HelloGWT230/src/io.github.shyangs.server" description="Delete elements" element1="/src&lt;io.github.shyangs.client{GreetingService.java" element2="/src&lt;io.github.shyangs.client{GreetingServiceAsync.java" element3="/src&lt;io.github.shyangs.server" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1507270652052" subPackages="false" version="1.0"/>
+</session>

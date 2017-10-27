@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1252194724608
+started,bundle,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.editors",1252194724608
+started,bundle,org.eclipse.ui.forms,3.4.0.v20090526,"org.eclipse.ui.forms",1252194724608
+started,bundle,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.ide",1252194724624
+started,bundle,org.eclipse.ui.net,1.2.0.I20090430-0408,"org.eclipse.ui.net",1252194724624
+started,bundle,org.eclipse.ui.views,3.4.0.I20090525-2000,"org.eclipse.ui.views",1252194724624
+started,bundle,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"org.eclipse.ui.workbench",1252194724639
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1252194724655
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1252194724655
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1252194724655
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1252194724671
+started,bundle,com.google.appengine.eclipse.core,1.1.0.v200907291526,"com.google.appengine.eclipse.core",1252194724671
+started,bundle,com.google.gdt.eclipse.core,1.1.0.v200907291526,"com.google.gdt.eclipse.core",1252194724671
+started,bundle,com.google.gdt.eclipse.platform.shared,1.1.0.v200907291526,"com.google.gdt.eclipse.platform.shared",1252194724671
+started,bundle,com.google.gdt.eclipse.suite,1.1.0.v200907291526,"com.google.gdt.eclipse.suite",1252194724671
+started,bundle,com.google.gwt.eclipse.core,1.1.0.v200907291526,"com.google.gwt.eclipse.core",1252194724733
+os,sysinfo,,,"win32",1252194724733
+arch,sysinfo,,,"x86",1252194724733
+ws,sysinfo,,,"win32",1252194724733
+locale,sysinfo,,,"zh_CN",1252194724733
+processors,sysinfo,,,"2",1252194724733
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1252194724733
+java.runtime.version,sysinfo,,,"1.6.0_16-b01",1252194724733
+java.specification.name,sysinfo,,,"Java Platform API Specification",1252194724733
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1252194724733

@@ -1,0 +1,42 @@
+package gwttest.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.event.dom.client.ChangeEvent;
+import com.google.gwt.event.dom.client.ChangeHandler;
+import com.google.gwt.event.logical.shared.ValueChangeEvent;
+import com.google.gwt.event.logical.shared.ValueChangeHandler;
+import com.google.gwt.user.client.History;
+import com.google.gwt.user.client.ui.ListBox;
+import com.google.gwt.user.client.ui.RootPanel;
+
+public class GwtTest implements EntryPoint {
+	public void onModuleLoad() {
+		
+		final ListBox listBox = new ListBox();
+		listBox.addItem("1");
+		listBox.addItem("2");
+		listBox.addItem("3");
+		listBox.addItem("4");
+		listBox.addItem("5");
+		listBox.addChangeHandler(new ChangeHandler(){
+
+			@Override
+			public void onChange(ChangeEvent event) {
+				History.newItem(Integer.toString(listBox.getSelectedIndex()));
+			}
+		});
+		
+		History.addValueChangeHandler(new ValueChangeHandler<String>() {
+		      public void onValueChange(ValueChangeEvent<String> event) {
+		          String historyToken = event.getValue();
+		          if (historyToken.isEmpty()) {
+			          listBox.setSelectedIndex(0);
+		          }
+		          else {
+			          listBox.setSelectedIndex(Integer.valueOf(historyToken));
+		          }
+		      }
+		});
+		RootPanel.get().add(listBox);
+	}
+}

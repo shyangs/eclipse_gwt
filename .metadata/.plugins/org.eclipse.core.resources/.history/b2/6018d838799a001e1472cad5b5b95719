@@ -1,0 +1,7 @@
+package gwttest.client;
+
+import com.google.gwt.uibinder.client.UiBinder;
+
+public interface MyUiBinder extends UiBinder<Panel, Example> {
+
+}

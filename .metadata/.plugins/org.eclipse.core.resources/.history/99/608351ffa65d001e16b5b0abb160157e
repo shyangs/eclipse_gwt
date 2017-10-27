@@ -1,0 +1,7 @@
+package chapter9.httprequesttest.client;
+
+import com.google.gwt.user.client.rpc.AsyncCallback;
+
+public interface AddServiceAsync {
+	void add(int a, AsyncCallback<Integer> callback);
+}

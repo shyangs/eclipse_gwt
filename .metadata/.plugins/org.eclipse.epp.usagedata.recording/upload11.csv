@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1252108386376
+java.specification.version,sysinfo,,,"1.6",1252108386376
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1252108386376
+java.version,sysinfo,,,"1.6.0_16",1252108386376
+java.vm.info,sysinfo,,,"mixed mode, sharing",1252108386376
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1252108386376
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1252108386376
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1252108386376
+java.vm.specification.version,sysinfo,,,"1.0",1252108386376
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1252108386376
+java.vm.version,sysinfo,,,"14.2-b01",1252108386376
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252108387266
+activated,view,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.ProjectExplorer",1252108389372
+started,bundle,org.eclipse.wst.sse.core,1.1.400.v200905141750,"org.eclipse.wst.sse.core",1252108390791
+started,bundle,org.eclipse.debug.ui,3.5.0.v20090603,"org.eclipse.debug.ui",1252108397437
+started,bundle,org.eclipse.jdt.debug,3.5.0.v20090526,"org.eclipse.jdt.debug",1252108397608
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.0.v20090513-2000,"org.eclipse.ltk.core.refactoring",1252108400480
+started,bundle,org.eclipse.ltk.ui.refactoring,3.4.100.v20090604,"org.eclipse.ltk.ui.refactoring",1252108401619
+started,bundle,org.eclipse.compare.core,3.5.0.I20090430-0408,"org.eclipse.compare.core",1252108401759
+opened,editor,com.google.gwt.eclipse.core,1.1.0.v200907291526,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1252108402180
+started,bundle,org.eclipse.core.variables,3.2.200.v20090521,"org.eclipse.core.variables",1252108402321
+started,bundle,org.eclipse.jdt.debug.ui,3.4.0.v20090527,"org.eclipse.jdt.debug.ui",1252108402430
+activated,editor,com.google.gwt.eclipse.core,1.1.0.v200907291526,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1252108402430
+executed,command,,,"AUTOGEN:::com.google.gwt.eclipse.core.editors.gwtJavaEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1252108404801
+started,bundle,org.eclipse.jdt.junit,3.5.0.v20090526-2000,"org.eclipse.jdt.junit",1252108406860

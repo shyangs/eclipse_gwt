@@ -1,0 +1,9 @@
+    	function __gwtStatsEvent(s) {
+        	var arr = [];
+        	arr.push("moduleName = " + s.moduleName);
+        	arr.push("subSystem = " + s.subSystem);
+        	arr.push("evtGroup = " + s.evtGroup);
+        	arr.push("millis = " + s.millis);
+        	arr.push("type = " + s.type);
+        	window.alert(arr.join("\n")); 
+    	}

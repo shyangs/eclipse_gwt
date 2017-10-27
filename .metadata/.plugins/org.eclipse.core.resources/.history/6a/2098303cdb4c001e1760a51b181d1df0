@@ -1,0 +1,7 @@
+package chapter4.client;
+
+import com.google.gwt.core.client.JavaScriptObject;
+
+public class JQueryObject extends JavaScriptObject {
+
+}

@@ -1,0 +1,6 @@
+package chapter5.xpath.client;
+
+public enum XPathConstants {
+	public final static short NODE = 1;
+	public final static short NODESET = 2;
+}

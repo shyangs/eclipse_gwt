@@ -1,0 +1,19 @@
+package chapter6.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.Tree;
+import com.google.gwt.user.client.ui.TreeItem;
+
+public class ControlTest implements EntryPoint {
+
+	public void onModuleLoad() {
+		Tree tree = new Tree();
+		tree.setWidth("100px");
+		tree.setHeight("150px");
+		TreeItem item = new TreeItem("<image src='a' />");
+		tree.addItem(item);
+		RootPanel.get().add(tree);
+	}
+
+}

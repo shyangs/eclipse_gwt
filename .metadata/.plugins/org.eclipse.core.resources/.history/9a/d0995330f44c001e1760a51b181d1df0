@@ -1,0 +1,36 @@
+package jquery4gwt.client;
+
+import com.google.gwt.core.client.JavaScriptObject;
+import com.google.gwt.dom.client.Node;
+
+public class JQueryObject extends JavaScriptObject {
+	
+	protected JQueryObject() {
+		
+	}
+	
+	public static native JQueryObject $(String cssSelector)/*-{
+		return $wnd.$(cssSelector);
+	}-*/;
+	
+	public static native JQueryObject $(Node node) /*-{
+		return $wnd.$(node);
+	}-*/;
+	
+	public final native void click(JQueryHandler handler) /*-{
+		this.click(function() {
+			handler.@jquery4gwt.client.JQueryHandler::handler(Lcom/google/gwt/dom/client/Node;)(this);
+		});
+	}-*/;	
+	
+	public final native void ready(JQueryHandler handler) /*-{
+		this.ready(function() {
+			handler.@jquery4gwt.client.JQueryHandler::handler(Lcom/google/gwt/dom/client/Node;)(this);
+		});
+	}-*/;
+
+	public final native void show(String speed) /*-{
+		this.show(speed);
+	}-*/;
+	
+}

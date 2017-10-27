@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bizzright>
+	<status name="init">
+		<item name="理由" right="x"/>
+		<item name="金额" right="x" />
+	</status>
+	<status name="部门经理审批">
+		<item name="部门经理意见" right="w"/>
+	</status>
+	<status name="财务审批">
+		<item name="财务意见" right="w"/>
+	</status>
+	<status name="总经理审批">
+		<item name="总经理意见" right="w"/>
+	</status>
+</bizzright>

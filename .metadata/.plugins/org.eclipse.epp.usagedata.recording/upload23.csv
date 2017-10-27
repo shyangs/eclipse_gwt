@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252195618235
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252195620231
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1252195620746
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252195621074
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252195622649
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1252195624022
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1252195624303
+executed,command,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1252195627408
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252195629577
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252195629748
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1252195630388
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252195631620
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252195637861
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252195638563
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252195656941
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.paste",1252195659016
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.edit.delete",1252195659780
+error,log,,,"Unexpected Exception",1252195659827
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1252195660155
+executed,command,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.jdt.ui.edit.text.java.correction.assist.proposals",1252195661715
+executed,command,org.eclipse.ui,3.5.0.I20090604-2000,"org.eclipse.ui.file.save",1252195662604
+deactivated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252195663103
+activated,workbench,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"",1252195719577
+activated,view,org.eclipse.jdt.ui,3.5.0.v20090604,"org.eclipse.jdt.ui.PackageExplorer",1252195720919
+activated,editor,com.google.gwt.eclipse.core,1.1.0.v200907291526,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1252195721122

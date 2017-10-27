@@ -1,0 +1,21 @@
+package chapter4.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.JavaScriptObject;
+import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.ui.RootPanel;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class JSNI implements EntryPoint {
+
+	public void onModuleLoad() {
+		Window.alert(Integer.toString(RootPanel.get("button1").getAbsoluteTop()));
+	}
+	
+	public native void showAbsoluteTop(JavaScriptObject obj) /*-{
+		var button1 = @com.google.gwt.user.client.ui.RootPanel::get(Ljava/lang/String;)("button1");
+		obj.@com.google.gwt.user.client.ui.UIObject::getAbsoluteTop();
+	}-*/;
+}

@@ -1,0 +1,2 @@
+# Module JSNI_echarts
+# RPC service class, partial path of RPC policy file

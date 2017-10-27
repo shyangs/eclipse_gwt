@@ -1,0 +1,19 @@
+package chapter4.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.user.client.Window;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class JSNI implements EntryPoint {
+	public void onModuleLoad() {
+		Window.alert(getUrl(1));
+	}
+	
+	public native String getUrl(float l) /*-{
+		// 下面的是JavaScript代码
+		$wnd.alert(l);
+		return $wnd.location.href;
+	}-*/;
+}

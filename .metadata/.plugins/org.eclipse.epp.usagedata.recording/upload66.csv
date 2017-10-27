@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258786674458
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786675193
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786676145
+error,log,,,"GWT compilation failed",1258786677643
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786677656
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786686973
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786688535
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786689691
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786705829
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786706529
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786706752
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786713707
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786720949
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786915191
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786916021
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786919228
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787112722
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258787116246
+activated,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1258787117371
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineStart",1258787118767
+executed,command,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.edit.text.goto.lineStart",1258787118939
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.cut",1258787119819
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258787120113
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787121346
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787122407

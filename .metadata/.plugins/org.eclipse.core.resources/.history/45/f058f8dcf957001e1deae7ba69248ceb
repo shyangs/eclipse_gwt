@@ -1,0 +1,36 @@
+package chapter6.client;
+
+import java.util.Date;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.dom.client.ClickHandler;
+import com.google.gwt.event.logical.shared.ValueChangeEvent;
+import com.google.gwt.event.logical.shared.ValueChangeHandler;
+import com.google.gwt.i18n.client.DateTimeFormat;
+import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.ui.Button;
+import com.google.gwt.user.client.ui.FileUpload;
+import com.google.gwt.user.client.ui.FormPanel;
+import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.VerticalPanel;
+import com.google.gwt.user.client.ui.FormPanel.SubmitCompleteEvent;
+import com.google.gwt.user.client.ui.FormPanel.SubmitCompleteHandler;
+import com.google.gwt.user.datepicker.client.DatePicker;
+
+public class ControlTest implements EntryPoint {
+
+	public void onModuleLoad() {
+		
+		DatePicker datePicker = new DatePicker();
+		datePicker.addValueChangeHandler(new ValueChangeHandler<Date>(){
+
+			@Override
+			public void onValueChange(ValueChangeEvent<Date> event) {
+				Window.alert(DateTimeFormat.getFormat("yyyy年MM月dd日").format(event.getValue()));				
+			}
+		});
+		RootPanel.get().add(datePicker);
+	}
+
+}

@@ -1,0 +1,21 @@
+package chapter4.client;
+
+import com.google.gwt.core.client.EntryPoint;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class JSNI implements EntryPoint {
+	public void onModuleLoad() {
+		showTypeMap("s", true, 1, (short)1, 1.1, (float)1.1);
+	}
+	
+	public native String showTypeMap(String st, boolean b, int i, short s, double d, float f) /*-{
+		var dog = {
+			name: "À´¸£",
+			color: "°×",
+			height: 20,
+			weight: 4
+		};
+	}-*/;
+}

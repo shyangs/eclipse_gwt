@@ -1,0 +1,15 @@
+.gwt-Button {
+	padding: 3px 5px 3px 5px;
+	FONT-SIZE: small;
+	MARGIN: 0px;
+	CURSOR: hand;
+	TEXT-DECORATION: none
+}
+
+.highlight {
+	border: outset 1px red;
+}
+
+.normal {
+	border: outset 1px #ccc;
+}

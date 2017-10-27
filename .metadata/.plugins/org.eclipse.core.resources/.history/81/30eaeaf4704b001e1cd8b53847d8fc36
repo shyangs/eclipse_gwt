@@ -1,0 +1,22 @@
+package chapter4.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.JavaScriptObject;
+import com.google.gwt.core.client.JsArray;
+import com.google.gwt.json.client.JSONObject;
+import com.google.gwt.user.client.Window;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class TestJavaScriptObject implements EntryPoint {
+	public void onModuleLoad() {
+		JsArray<JavaScriptObject> jsArray = JavaScriptObject.createArray().cast();
+		alertJavaScriptObject(jsArray);
+	}
+	
+	public void alertJavaScriptObject(JavaScriptObject jsObject) {
+		JSONObject json = new JSONObject(jsObject);
+		Window.alert(json.toString());
+	}
+}

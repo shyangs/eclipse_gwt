@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.ui.ide,3.5.0.I20090525-2000,"org.eclipse.ui.ide",1252108386376
+started,bundle,org.eclipse.ui.navigator,3.4.0.I20090525-2000,"org.eclipse.ui.navigator",1252108386376
+started,bundle,org.eclipse.ui.navigator.resources,3.4.0.I20090525-2000,"org.eclipse.ui.navigator.resources",1252108386376
+started,bundle,org.eclipse.ui.net,1.2.0.I20090430-0408,"org.eclipse.ui.net",1252108386376
+started,bundle,org.eclipse.ui.views,3.4.0.I20090525-2000,"org.eclipse.ui.views",1252108386376
+started,bundle,org.eclipse.ui.workbench,3.5.0.I20090603-2000,"org.eclipse.ui.workbench",1252108386376
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.0.v20090603,"org.eclipse.ui.workbench.texteditor",1252108386376
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1252108386376
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1252108386376
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1252108386376
+started,bundle,com.google.appengine.eclipse.core,1.1.0.v200907291526,"com.google.appengine.eclipse.core",1252108386376
+started,bundle,com.google.appengine.eclipse.sdkbundle,1.2.5.v200909021031,"com.google.appengine.eclipse.sdkbundle",1252108386376
+started,bundle,com.google.gdt.eclipse.core,1.1.0.v200907291526,"com.google.gdt.eclipse.core",1252108386376
+started,bundle,com.google.gdt.eclipse.platform.shared,1.1.0.v200907291526,"com.google.gdt.eclipse.platform.shared",1252108386376
+started,bundle,com.google.gdt.eclipse.suite,1.1.0.v200907291526,"com.google.gdt.eclipse.suite",1252108386376
+started,bundle,com.google.gwt.eclipse.core,1.1.0.v200907291526,"com.google.gwt.eclipse.core",1252108386376
+started,bundle,com.google.gwt.eclipse.sdkbundle.win32,1.7.0.v200907291526,"com.google.gwt.eclipse.sdkbundle.win32",1252108386376
+os,sysinfo,,,"win32",1252108386376
+arch,sysinfo,,,"x86",1252108386376
+ws,sysinfo,,,"win32",1252108386376
+locale,sysinfo,,,"zh_CN",1252108386376
+processors,sysinfo,,,"2",1252108386376
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1252108386376
+java.runtime.version,sysinfo,,,"1.6.0_16-b01",1252108386376
+java.specification.name,sysinfo,,,"Java Platform API Specification",1252108386376

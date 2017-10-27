@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786397994
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786398757
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786399182
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1258786399638
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786401248
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786402064
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786402929
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786403956
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786404251
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786418011
+activated,editor,com.google.gwt.eclipse.core,1.1.101.v200911161426,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1258786421532
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1258786424841
+activated,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1258786425844
+activated,editor,com.google.gwt.eclipse.core,1.1.101.v200911161426,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1258786426487
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258786436879
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786437391
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786438409
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786438544
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786441371
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786445650
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786449954
+error,log,,,"GWT compilation failed",1258786451895
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786451973
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258786464799
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1258786467394

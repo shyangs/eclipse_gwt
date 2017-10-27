@@ -1,0 +1,29 @@
+package chapter9.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.core.client.GWT;
+import com.google.gwt.core.client.JavaScriptObject;
+import com.google.gwt.user.client.ResponseTextHandler;
+import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.impl.HTTPRequestImpl;
+import com.google.gwt.http.client.XMLHTTPRequest;
+
+/**
+ * Entry point classes define <code>onModuleLoad()</code>.
+ */
+public class RPCTutorial implements EntryPoint {
+	public void onModuleLoad() {
+		HTTPRequestImpl impl = GWT.create(HTTPRequestImpl.class);
+		JavaScriptObject request = impl.createXmlHTTPRequest();
+		XMLHTTPRequest
+		
+		i.asyncGet("../RPCTutorial.html", new ResponseTextHandler() {
+
+			@Override
+			public void onCompletion(String responseText) {
+				Window.alert(responseText);
+				
+			}
+		});
+	}
+}

@@ -1,0 +1,22 @@
+package chapter5.xpath.client;
+
+import com.google.gwt.core.client.JavaScriptObject;
+import com.google.gwt.xml.client.Node;
+
+public class XPathExpression {
+	private String xpath;
+	
+	XPathExpression(String xpath) {
+		this.xpath = xpath;
+	}
+	
+	public Object evaluate(Node item, XPathConstants returnType) {
+		
+	};
+	
+	private JavaScriptObject evaluateSingle(String xpath, JavaScriptObject item) /*-{
+		var oEvaluator = new XPathEvaluator();
+		var oResult = oEvaluator.evaluate(
+			xpath, oXMLDom.documentElement, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
+	}-*/;
+}

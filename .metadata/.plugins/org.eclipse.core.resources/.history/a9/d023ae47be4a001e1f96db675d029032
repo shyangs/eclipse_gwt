@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="Hellogwt" default="gwtc" basedir=".">
+	<property file="build.properties" />
+	<target name="export-lib">
+		<javac srcdir="src" destdir="${basedir}/../BizzBuildFramework/bin">
+			<classpath>
+				<fileset dir="${bbf.lib.dir}">
+					<include name="**/*.jar"/>
+					<exclude name="gwt-servlet.jar"/>
+					<exclude name="gwt-user-deploy.jar"/>
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+</project>

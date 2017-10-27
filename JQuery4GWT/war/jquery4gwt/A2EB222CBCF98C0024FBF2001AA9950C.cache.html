@@ -1,0 +1,74 @@
+<html>
+<head><script>
+var $gwt_version = "1.6.4";
+var $wnd = parent;
+var $doc = $wnd.document;
+var $moduleName, $moduleBase;
+var $stats = $wnd.__gwtStatsEvent ? function(a) {return $wnd.__gwtStatsEvent(a);} : null;
+$stats && $stats({moduleName:'jquery4gwt',subSystem:'startup',evtGroup:'moduleStartup',millis:(new Date()).getTime(),type:'moduleEvalStart'});
+</script></head>
+<body>
+<script><!--
+var _;
+function Object_0(){
+}
+
+_ = Object_0.prototype = {};
+_ = String.prototype;
+function handler_1(thisEl){
+  $click($wnd.$('#runBtn'), new JQuery4GWT$1$1());
+}
+
+function JQuery4GWT$1(){
+}
+
+_ = JQuery4GWT$1.prototype = new Object_0();
+_.handler = handler_1;
+function handler_0(thisEl){
+  $wnd.$('#panel').show('slow');
+}
+
+function JQuery4GWT$1$1(){
+}
+
+_ = JQuery4GWT$1$1.prototype = new Object_0();
+_.handler = handler_0;
+function $click(this$static, handler){
+  this$static.click(function(){
+    handler.handler(this);
+  }
+  );
+}
+
+function $ready(this$static, handler){
+  this$static.ready(function(){
+    handler.handler(this);
+  }
+  );
+}
+
+function init(){
+  var jqueryObject;
+  !!$stats && $stats({moduleName:$moduleName, subSystem:'startup', evtGroup:'moduleStartup', millis:(new Date()).getTime(), type:'onModuleLoadStart', className:'jquery4gwt.client.JQuery4GWT'});
+  jqueryObject = $wnd.$($doc);
+  $ready(jqueryObject, new JQuery4GWT$1());
+}
+
+function gwtOnLoad(errFn, modName, modBase){
+  $moduleName = modName;
+  $moduleBase = modBase;
+  if (errFn)
+    try {
+      init();
+    }
+     catch (e) {
+      errFn(modName);
+    }
+   else {
+    init();
+  }
+}
+
+$stats && $stats({moduleName:'jquery4gwt',subSystem:'startup',evtGroup:'moduleStartup',millis:(new Date()).getTime(),type:'moduleEvalEnd'});
+if ($wnd.jquery4gwt) $wnd.jquery4gwt.onScriptLoad();
+--></script></body></html>

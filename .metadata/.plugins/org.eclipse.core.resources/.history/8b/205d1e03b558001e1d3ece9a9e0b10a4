@@ -1,0 +1,25 @@
+package chapter6.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.user.client.ui.Button;
+import com.google.gwt.user.client.ui.CheckBox;
+import com.google.gwt.user.client.ui.Grid;
+import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.ScrollPanel;
+import com.google.gwt.user.client.ui.TabPanel;
+import com.google.gwt.user.client.ui.TextBox;
+import com.google.gwt.user.client.ui.VerticalPanel;
+
+public class ControlTest implements EntryPoint {
+
+	
+	public void onModuleLoad() {
+		Grid grid = new Grid(2, 2);
+		grid.setWidget(0, 0, new Button("button"));
+		grid.setWidget(0, 1, new Button("button"));
+		grid.setWidget(1, 0, new Button("button"));
+		grid.setWidget(1, 1, new Button("button"));
+		RootPanel.get().add(grid);
+	}
+
+}

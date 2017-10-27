@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258787129880
+activated,editor,com.google.gwt.eclipse.core,1.1.101.v200911161426,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1258787132098
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258787132862
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787148453
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787169672
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787170226
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787179300
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787223123
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787634411
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258787635890
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.undo",1258787636473
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.redo",1258787637793
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.redo",1258787637960
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.redo",1258787638146
+activated,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1258787640205
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1258787642987
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258787643449
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787656229
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787657567
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1258787674564
+error,log,,,"GWT compilation failed",1258787677030
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787677045
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258787679653
+activated,editor,org.eclipse.wst.xml.ui,1.1.1.v200908242115,"org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart",1258787681020
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258787683612

@@ -1,0 +1,51 @@
+package gwttest.client;
+
+import com.google.gwt.animation.client.Animation;
+import com.google.gwt.dom.client.Element;
+
+public class MoveAni extends Animation {
+	private Element el;
+	private int startX, startY, endX, endY, currentX, currentY;
+	private int duration;
+	private double stepX, stepY;
+	
+	public MoveAni(Element el, int startX, int startY, int endX, int endY) {
+		this.el = el;
+		this.startX = startX;
+		this.startY = startY;
+		this.endX = endX;
+		this.endY = endY;
+		currentX = -1;
+		currentY = -1;
+		el.getStyle().setProperty("position", "absolute");
+	}
+
+	@Override
+	public void run(int duration) {
+		this.duration = duration;
+		super.run(duration);
+	}
+
+	@Override
+	protected void onStart() {
+		currentX = startX;
+		currentY = startY;
+		el.getStyle().setProperty("left", Integer.toString(currentX) + "px");
+		el.getStyle().setProperty("top", Integer.toString(currentY) + "px");
+		
+		stepX = (endX - startX) / (duration / 25); 
+		super.onStart();
+	}
+	  
+	@Override
+	protected void onUpdate(double progress) {
+		if (currentX == -1 && currentY == -1) {
+			return;
+		}
+		currentX += 10;
+		currentY += 10;
+		el.getStyle().setProperty("left", Integer.toString(currentX) + "px");
+		el.getStyle().setProperty("top", Integer.toString(currentY) + "px");
+	}
+
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="Hellogwt" default="gwtc" basedir=".">
+	<property file="build.properties" />
+  
+	<target name="gwtc">
+		<java failonerror="true" fork="true" classname="com.google.gwt.dev.Compiler">
+			<classpath>
+				<pathelement location="src"/>
+				<pathelement location="${gwt.sdk}/gwt-user.jar"/>
+				<fileset dir="${gwt.sdk}" includes="gwt-dev*.jar"/>
+			</classpath>
+			<jvmarg value="-Xmx256M"/>
+			<arg value="${gwt.module.name}"/>
+		</java>
+	</target>
+	
+	<target name="export-lib">
+		<javac srcdir="src" destdir="${basedir}/../BizzBuildFramework/bin">
+			<classpath>
+				<fileset dir="${bbf.lib.dir}">
+					<include name="**/*.jar"/>
+					<exclude name="gwt-servlet.jar"/>
+					<exclude name="gwt-user-deploy.jar"/>
+				</fileset>
+			</classpath>
+		</javac>
+	</target>
+</project>

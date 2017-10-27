@@ -1,0 +1,35 @@
+package chapter6.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.event.logical.shared.OpenEvent;
+import com.google.gwt.event.logical.shared.OpenHandler;
+import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.Tree;
+import com.google.gwt.user.client.ui.TreeItem;
+
+public class ControlTest implements EntryPoint {
+
+	public void onModuleLoad() {
+		Tree tree = new Tree();
+		TreeItem rootItem = tree.addItem("root");
+		rootItem.addItem("data_id....");
+		tree.addOpenHandler(new OpenHandler<TreeItem>(){
+
+			@Override
+			public void onOpen(OpenEvent<TreeItem> event) {
+				TreeItem item = event.getTarget();
+				if (item.getChildCount() == 1) {
+					TreeItem firstChlid = item.getChild(0);
+					if (firstChlid.getText().equals("data_id....")) {
+						firstChlid.remove();
+						item.addItem("item...");
+						
+					}
+				}
+				
+			}
+		});
+		RootPanel.get().add(tree);
+	}
+
+}

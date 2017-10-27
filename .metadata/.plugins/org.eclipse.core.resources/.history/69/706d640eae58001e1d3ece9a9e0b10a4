@@ -1,0 +1,21 @@
+package chapter6.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.user.client.ui.Button;
+import com.google.gwt.user.client.ui.CheckBox;
+import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.TabPanel;
+import com.google.gwt.user.client.ui.TextBox;
+
+public class ControlTest implements EntryPoint {
+
+	
+	public void onModuleLoad() {
+		TabPanel tabPanel = new TabPanel();
+		tabPanel.add(new Button("button"), "按钮");
+		tabPanel.add(new TextBox(), "文本框");
+		tabPanel.add(new CheckBox("checkbox"), "复选框");
+		RootPanel.get().add(tabPanel);
+	}
+
+}

@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.paste",1258794158181
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258794164641
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258794165080
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258794168148
+activated,view,com.google.gwt.eclipse.oophm,1.1.101.v200911161426,"com.google.gwt.eclipse.oophm.WebAppLaunchView",1258794168167
+no handler,command,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1258794169444
+activated,editor,com.google.gwt.eclipse.core,1.1.101.v200911161426,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1258794170621
+executed,command,org.eclipse.jdt.ui,3.5.1.r351_v20090821-0800,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1258794171457
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.file.save",1258794172889
+activated,editor,com.google.gwt.eclipse.core,1.1.101.v200911161426,"com.google.gwt.eclipse.core.editors.uiBinderXmlEditor",1258794173587
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1258794175467
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258794175758
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258794204109
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1258794204898
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258794205177
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258794267220
+activated,editor,com.google.gwt.eclipse.core,1.1.101.v200911161426,"com.google.gwt.eclipse.core.editors.gwtJavaEditor",1258794269132
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.selectAll",1258794270444
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1258794270746
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258794271157
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258794281033
+executed,command,org.eclipse.ui,3.5.1.M20090902-1000,"org.eclipse.ui.edit.copy",1258794281485
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258794281743
+activated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258794397225
+deactivated,workbench,org.eclipse.ui.workbench,3.5.1.M20090826-0800a,"",1258794398102

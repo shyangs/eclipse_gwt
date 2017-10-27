@@ -1,0 +1,31 @@
+package chapter6.client;
+
+import java.util.Date;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.event.logical.shared.ValueChangeEvent;
+import com.google.gwt.event.logical.shared.ValueChangeHandler;
+import com.google.gwt.i18n.client.DateTimeFormat;
+import com.google.gwt.user.client.Window;
+import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.datepicker.client.DatePicker;
+
+public class ControlTest implements EntryPoint {
+
+	public void onModuleLoad() {
+		
+		DatePicker datePicker = new DatePicker();
+		datePicker.addValueChangeHandler(new ValueChangeHandler<Date>(){
+
+			@Override
+			public void onValueChange(ValueChangeEvent<Date> event) {
+				Date currentDate = event.getValue();
+				DateTimeFormat formate = DateTimeFormat.getLongDateFormat();
+				String strDate = formate.format(currentDate);
+				Window.alert(DateTimeFormat.getLongDateFormat().format());				
+			}
+		});
+		RootPanel.get().add(datePicker);
+	}
+
+}

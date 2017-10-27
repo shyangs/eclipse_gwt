@@ -1,0 +1,27 @@
+package chapter6.client;
+
+import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.user.client.ui.Button;
+import com.google.gwt.user.client.ui.CheckBox;
+import com.google.gwt.user.client.ui.RootPanel;
+import com.google.gwt.user.client.ui.ScrollPanel;
+import com.google.gwt.user.client.ui.TabPanel;
+import com.google.gwt.user.client.ui.TextBox;
+import com.google.gwt.user.client.ui.VerticalPanel;
+
+public class ControlTest implements EntryPoint {
+
+	
+	public void onModuleLoad() {
+		ScrollPanel scrollPanel = new ScrollPanel();
+		scrollPanel.setWidget("100px");
+		scrollPanel.setHeight("30px");
+		VerticalPanel verticalPanel = new VerticalPanel();
+		verticalPanel.add(new Button("button"));
+		verticalPanel.add(new Button("button"));
+		verticalPanel.add(new Button("button"));
+		scrollPanel.setWidget(verticalPanel);
+		RootPanel.get().add(scrollPanel);
+	}
+
+}

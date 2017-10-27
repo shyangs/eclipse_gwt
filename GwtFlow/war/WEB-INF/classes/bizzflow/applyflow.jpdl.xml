@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<process name='applyflow' xmlns='http://jbpm.org/4.0/jpdl'>
+	<swimlane name='总经理' candidate-groups='总经理' />
+	<swimlane name='财务' candidate-groups='财务' />
+	<swimlane name='出纳' candidate-groups='出纳' />
+	<start>
+		<transition to='部门经理审批' />
+	</start>
+	
+	<task name='部门经理审批'>
+		<assignment-handler class="gwtflow.workflow.ManagerAssignTask" />
+		<transition name='accept' to='财务审批' />
+		<transition name='reject' to='填写申请表' />
+	</task>
+	
+	<task name='财务审批' swimlane='财务'>
+		<transition name='accept' to='判断是否需要总经理审批' />
+		<transition name='reject' to='填写申请表' />
+	</task>
+
+	<decision name='判断是否需要总经理审批'>
+	    <transition to='总经理审批'>
+      		<condition expr='#{金额  > 2000}' />
+    	</transition>
+	    <transition to='出纳支付' />
+	</decision>
+	
+	<task name='总经理审批' swimlane='总经理'>
+		<transition name='accept' to='出纳支付' />	
+		<transition name='reject' to='填写申请表' />
+	</task>
+	
+	<task name='出纳支付' swimlane='出纳'>
+		<transition name='accept' to='end' />
+	</task>
+	
+	<task name='填写申请表' assignee='#{申请人}'>
+		<transition name='accept' to='部门经理审批' />
+		<transition name='reject' to='end' />
+	</task>
+	
+	<end name='end'>
+	</end>
+</process>
